@@ -18,4 +18,4 @@ A link to the live version of the music player will be provided once it's ready.
 
 ## screenshot
 
-![](./FireShot Capture 003 - Music Player - 127.0.0.1.png)
+![](./media/FireShot%20Capture%20003%20-%20Music%20Player.png)
