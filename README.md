@@ -16,6 +16,6 @@ The project is still in progress. The current version includes the basic structu
 
 A link to the live version of the music player will be provided once it's ready.
 
-##screenshot
+## screenshot
 
 ![](./FireShot Capture 003 - Music Player - 127.0.0.1.png)
