@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="media/music-note.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/8230e1157a.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="musicPlayer">
+            <nav>
+                <div class="move">
+                    <i class="fa-solid fa-angle-left fa-sm"></i>
+                </div>
+                <div class="move">
+                    <i class="fa-solid fa-bars fa-sm"></i>
+                </div>
+            </nav>
+            <img src="media/_AM__(Arctic_Monkeys).jpg" alt="poster" class="poster">
+            <h1>Do i wanna know</h1>
+            <p>Arctic Monkeys</p>
+            <audio id="song">
+                <source src="media/music_arctic-monkeys-do-i-wanna-know.mp3" type="audio/mpeg">
+            </audio>
+            <input type="range" value="0" id="progress"> 
+            <div class="controls">
+
+                <div>
+                    <i class="fa-solid fa-backward fa-sm"></i>
+                </div>
+
+                <div onclick="playPause()" id="playBtn">
+                    <i class="fa-solid fa-play" id="playp"></i>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-forward fa-sm"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
