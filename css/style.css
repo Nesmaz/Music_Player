@@ -113,3 +113,14 @@ i:not(:nth-of-type(4)){
 #playBtn i{
     color: rgb(199,168,205);
 }
+
+
+@media all and (max-width: 400px){
+    .container .musicPlayer{
+        width: 98vw;
+    }
+
+    .controls div {
+        margin: 0 15px;
+    }
+}
